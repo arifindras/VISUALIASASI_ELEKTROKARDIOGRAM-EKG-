@@ -215,6 +215,7 @@ usia   = input("Usia         : ")
 gender = input("Gender       : ") 
 print("Tekan Enter untuk mulai")
 input("")
+#aku = "aku"
 # time.sleep(1)
 
 startTime = int(time.time()*1000) #flag start sampling
