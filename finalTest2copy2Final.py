@@ -15,7 +15,7 @@ import serial.tools.list_ports
 TOKEN = "6945383482:AAGtACEB30LcvqUbIYMsAt5cFBcQLVUyDIQ" #token id bot telegram
 CHAT_ID = "6163399679" #pasword id bot telegram
 
-uplinkInterval = 60
+uplinkInterval = 60 #jumlah durasi dalam satu kali proses
 samplingDuration = 10 #dalam detik
 
 samplingRate = 100 #sample per detik
@@ -215,7 +215,6 @@ usia   = input("Usia         : ")
 gender = input("Gender       : ") 
 print("Tekan Enter untuk mulai")
 input("")
-#aku = "aku"
 # time.sleep(1)
 
 startTime = int(time.time()*1000) #flag start sampling
